@@ -1,0 +1,5 @@
+  
+An API (Application Programming Interface) allows different software systems to communicate with each other. For example, when you use Google Pay to send money, the app uses the bank’s API to perform a series of checks before the transaction. First, the API checks if the recipient’s account name exists. Then, it checks if your bank account has enough balance for the transaction. Finally, it checks if the transaction amount is within any limits set by the bank. If everything is fine, the payment is processed.
+
+
+A Web API works the same way as an API but uses the internet to send and receive information. In this case, Google Pay connects to the bank’s Web API over the internet. The Web API ensures that all the necessary checks—like account validation, balance check, and transaction limits—are done securely before confirming the payment. This allows Google Pay to process the transaction safely and send the money to the recipient.
